@@ -1,0 +1,79 @@
+🌍 OpenTravel AI – Destination & Booking Search Engine
+📌 Overview
+
+OpenTravel AI is an AI-powered travel search engine that uses scraped open-source travel data (from sources like Wikivoyage, OpenStreetMap, and other free APIs) to provide structured information about destinations worldwide.
+
+Users can:
+
+Search for destinations.
+
+Get structured JSON data about places (with required fields like destination and country).
+
+View images of destinations (scraped and linked from open sources).
+
+Get recommendations for activities (from cheap-but-worthy to premium experiences).
+
+Access direct booking links from open platforms.
+
+The system is designed to grow into a full booking + travel planning platform with AI-powered automation.
+
+✅ Current Features (MVP Done So Far)
+
+🌍 Scraping Engine: Pulls data from open-source travel sites (e.g., Wikivoyage).
+
+🗂️ Structured JSON Format: Every destination includes at minimum:
+
+{
+  "destination": "Mombasa",
+  "country": "Kenya",
+  "description": "A coastal city known for its beaches and Swahili culture.",
+  "best_time_to_visit": "June - October",
+  "activities": [
+    {"name": "Fort Jesus Tour", "price_range": "Cheap"},
+    {"name": "Diani Beach Resort Stay", "price_range": "Premium"}
+  ],
+  "images": [
+    "https://upload.wikimedia.org/.../Mombasa_Beach.jpg"
+  ],
+  "booking_links": [
+    {"platform": "OpenResorts", "url": "https://examplebooking.com/mombasa"}
+  ]
+}
+
+
+🔎 AI-Powered Search: Query understanding (users can type “cheap beach holidays in Kenya” and get structured suggestions).
+
+🚀 Upcoming Features (Roadmap)
+Short-Term
+
+🖼️ Image Enhancements: AI-curated and scraped images for every destination.
+
+📖 Extended Data Sources: Expand scraping to include reviews, tips, hidden gems.
+
+🏷️ Activity Categorization: Organize activities from “budget” to “luxury” tiers.
+
+Mid-Term
+
+🔗 Booking Integration: Direct links to open-source booking engines (hotels, resorts, flights).
+
+⚡ Recommendation Engine: AI suggests itineraries (e.g., “3 days in Nairobi with budget activities”).
+
+🗄️ Database Upgrade: Move from JSON → PostgreSQL for scalability.
+
+Long-Term
+
+🌐 Full Travel Marketplace: End-to-end booking (destinations, accommodations, transport, tours).
+
+🤖 Personal AI Travel Agent: Conversational assistant to plan, budget, and book trips.
+
+📱 Mobile App: Seamless search and booking on iOS/Android.
+
+💡 Vision
+
+The ultimate goal is to build the Wikipedia + Booking.com of open travel:
+
+Free, structured, transparent destination data.
+
+Smart, AI-assisted search and recommendations.
+
+One-click booking and automation.
