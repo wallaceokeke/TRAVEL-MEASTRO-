@@ -124,3 +124,4 @@ This project is licensed under the **MIT License**.
 💜 **OpenTravel AI** – *The future of smart, open-source travel discovery.* 🌍✨
 
 ---
+
